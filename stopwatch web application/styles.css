@@ -1,0 +1,186 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Poppins", 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
+/* Default Light Mode Styles */
+body {
+    /*font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    transition: background 0.3s ease, color 0.3s ease;*/
+    min-height: 100lvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, #011d1f,#054556, #5c808a);
+    margin-bottom: auto;
+    position: relative;
+
+
+
+
+}
+
+/* Container */
+.container {
+    margin-top: 50px;
+}
+
+/* Headings */
+h1 {
+    font-size: 2rem;
+    transition: color 0.3s ease;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+    background-color: #181818;
+    color: #e0e0e0;
+}
+
+/* Theme Toggle Button */
+#theme-toggle {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: #000;
+    color: white;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+#theme-toggle:hover {
+    background-color: #444;
+    transform: scale(1.1);
+}
+
+/* Circular Stopwatch */
+.stopwatch {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 8px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 20px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.stopwatch:hover {
+    transform: scale(1.05);
+}
+
+/* Dark Mode Stopwatch */
+.dark-mode .stopwatch {
+    background-color: #252525;
+    border-color: white;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+/* Buttons */
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    font-size: 1.2rem;
+    padding: 12px 18px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Button Glow Effect */
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(0, 102, 255, 0.8);
+}
+
+/* Dark Mode Button Glow */
+.dark-mode button:hover {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+}
+
+/* Dark Mode Buttons */
+.dark-mode button {
+    background-color: #444;
+    color: white;
+}
+
+/* Button Colors */
+#start {
+    background-color: #28a745;
+    color: white;
+}
+
+#pause {
+    background-color: #ffc107;
+    color: white;
+}
+
+#reset {
+    background-color: #dc3545;
+    color: white;
+}
+
+#lap {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Lap List */
+#laps {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#laps li {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px auto;
+    width: 220px;
+    font-size: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+#laps li:hover {
+    transform: scale(1.05);
+}
+
+/* Dark Mode Lap List */
+.dark-mode #laps li {
+    background: #252525;
+    color: white;
+    border-color: white;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
+}

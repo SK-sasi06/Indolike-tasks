@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button id="theme-toggle">🌙 </button> <!-- Theme Toggle Button -->
+   
+    
+
+    <div class="container">
+        <center>
+        <h1>Stopwatch⏱️</h1>
+        </center>
+        <div class="stopwatch">
+            <span id="minutes">00</span>:<span id="seconds">00</span>:<span id="milliseconds">00</span>
+        </div>
+        <div class="buttons">
+            <button id="start">Start</button>
+            <button id="reset">Reset</button>
+            <button id="lap">Lap</button>
+            <!--img src="images/stop.png" alt="Stop" onclick="watchStop()" /-->
+            <!--img src="images/start.png" alt="Start" onclick="watchStart()" /--->
+            <!--img src="images/reset.png" alt="Reset" onclick="watchReset()" /-->
+        </div>
+        <ul id="laps"></ul> <!-- Lap times will be added here -->
+    </div>
+
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
