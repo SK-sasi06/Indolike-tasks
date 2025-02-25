@@ -1,8 +1,13 @@
 Frontend Development Internship @ Indolike
+
 🚀 About This Repository
+
 This repository showcases my journey as a Frontend Developer Intern at Indolike. Over the course of my internship, I worked on crafting interactive, responsive, and visually appealing web applications using modern frontend technologies.
+
 🌟 Projects
+
 1️⃣ Amazon Homepage Clone 🛒
+
 🔹 Description: A pixel-perfect recreation of the Amazon homepage designed to mirror the real-world UI experience.
 🔹 Technologies Used: HTML, CSS, Bootstrap
 🔹 Key Features:
@@ -10,7 +15,12 @@ This repository showcases my journey as a Frontend Developer Intern at Indolike.
 ✅ Intuitive navigation bar
 ✅ Organized product sections
 ✅ Well-structured footer with essential links
+
+
+---
+
 2️⃣ Weather App ⛅
+
 🔹 Description: A dynamic web app that fetches and displays real-time weather updates based on user input.
 🔹 Technologies Used: HTML, CSS, JavaScript, OpenWeatherMap API
 🔹 Key Features:
@@ -18,7 +28,11 @@ This repository showcases my journey as a Frontend Developer Intern at Indolike.
 ✅ Displays temperature, humidity & conditions
 ✅ Clean and user-friendly interface
 
+
+---
+
 3️⃣ Stopwatch Web Application ⏱️
+
 🔹 Description: A sleek stopwatch app with essential time-tracking functionalities.
 🔹 Technologies Used: HTML, CSS, JavaScript
 🔹 Key Features:
@@ -26,7 +40,11 @@ This repository showcases my journey as a Frontend Developer Intern at Indolike.
 ✅ Accurate time display (milliseconds, seconds, minutes)
 ✅ Minimalist and modern UI
 
+
+---
+
 💡 Skills Acquired
+
 ✔️ Frontend Technologies: HTML5, CSS3, Bootstrap
 ✔️ JavaScript & ES6+ Concepts
 ✔️ API Integration & Data Fetching
@@ -34,9 +52,16 @@ This repository showcases my journey as a Frontend Developer Intern at Indolike.
 ✔️ UI/UX Enhancements
 ✔️ Debugging & Performance Optimization
 
+
+---
+
 🎯 Conclusion
+
 This internship was an exciting hands-on experience, reinforcing my skills in frontend development. I gained invaluable insights into crafting responsive, user-friendly web applications and improving UI/UX. Looking forward to building more innovative projects! 🚀
 
 
+---
+
 📌 Let's Connect!
-💼 https://www.linkedin.com/in/sasi-kumar-k-81723b2a2/ | 👨‍💻 sasikumar887049@gmail.com 
+
+💼 LinkedIn:  | 💬 Email: sasikumar887049@gmail 
