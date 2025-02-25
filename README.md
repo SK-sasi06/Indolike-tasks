@@ -64,4 +64,4 @@ This internship was an exciting hands-on experience, reinforcing my skills in fr
 
 📌 Let's Connect!
 
-💼 LinkedIn:  | 💬 Email: sasikumar887049@gmail 
+💼 LinkedIn: https://www.linkedin.com/in/sasi-kumar-k-81723b2a2 | 💬 Email: sasikumar887049@gmail 
